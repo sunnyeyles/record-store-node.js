@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("tiny"));
 
 // import middleware
-app.use(auth);
+// app.use(auth);
 app.use(errorHandler);
 
 app.listen(PORT, () => {

@@ -13,13 +13,10 @@ import {
 const router = express.Router();
 router
   .route("/")
-  .post(checkAllInfoIsThere, addRecord)
+  .post(addRecord)
   .get(getRecords)
   .put(updateRecords)
   .delete(deleteRecord);
-router
-  .route("/:id")
-  .get(cors(corsOptions), getSpecificRecord)
-  .delete(cors(corsOptions), deleteSpecificRecord);
+router.route("/:id").get(getSpecificRecord).delete(deleteSpecificRecord);
 
 export default router;
