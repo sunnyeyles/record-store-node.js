@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "0",
+      "title": "title one",
+      "price": "20",
+      "year": "1995"
+    },
+    {
+      "id": "1",
+      "title": "title two",
+      "price": "25",
+      "year": "1935"
+    },
+    {
+      "price": "200",
+      "title": "fsdf",
+      "artist": "dfdf",
+      "id": 20
+    }
+  ],
+  "shopUsers": [
+    {
+      "id": "0",
+      "name": "John Smith"
+    },
+    {
+      "id": "1",
+      "name": "John Smith"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "1"
+    }
+  ]
+}
