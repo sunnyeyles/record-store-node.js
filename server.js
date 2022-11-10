@@ -34,5 +34,5 @@ app.use(auth);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`server's up & running at http://localhost:${PORT}`);
+  console.log(`server's up & running at ${PORT}`);
 });
